@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Folk Museum</title>
+      <!-- bring in google fonts:  Lato, Muli, Fjord One, Asap -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Muli|Fjord+One|Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/meyer-reset.css"> 
+  <link rel="stylesheet" type="text/css" href="../styles/style2.css">
+      <!-- apply Font Awesome icons -->
+  <link rel="stylesheet" href="../styles/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+    
+
+    
+<body>
+     <!-- add horizontal navigation bar  to link to the main web pagess 
+                and, make current page "active" -->
+  
+    <header> 
+        <h1>3 Fantastic Days in Oslo! </h1>
+    </header>
+  <nav>
+    <ul class= "navbar">
+          <!-- add Font Awesome home icon to the Home menu box  -->
+      <li class="navbar"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  </li>
+      <li class="navbar"><a class= "active" href="oslo.html">Oslo</a> </li>
+      <li class="navbar"><a href="../sognefjord/sognefjord.html">Sognefjord</a></li>
+      <li class="navbar"><a href="../bergen/bergen.html">Bergen</a></li>
+      <li class="navbar"><a href="../solstrand/solstrand.html">Solstrand</a></li>
+      <li class="navbar"><a href="../andoya/andoya.html">Andøya</a></li>
+      <li class="navbar"><a href="../lofoten/lofoten.html">Lofoten</a></li>      
+    </ul>
+
+  </nav>
+  
+  <!-- add an aside to support the main sections  -->
+  <aside class="leftbar">
+        <ul class= "leftbar">
+          <li class="leftbar"><a href="oslo.html">Oslo City</a>  </li>       	
+          <li class="leftbar"><a href="vikingship.html">Viking Ship</a>  </li>
+          <li class="leftbar"><a class= "active"  href="folkmuseum.html">Folk Museum</a>  </li>
+          <li class="leftbar"><a href="castle.html">Akershus Castle</a>  </li>
+          <li class="leftbar"><a href="vigeland.html">Vigeland Scupltures</a>  </li> 
+          <li class="leftbar"><a href="family.html">Oslo Relatives</a>  </li>  
+          <li class="leftbar"><a href="food.html">Food!</a>  </li>           
+        </ul>
+
+  </aside>
+
+ <!-- start with main intro in the "sections" -->  
+  <section>
+  	<h2>The Folk Museum</h2>
+    <p class="narrow">The Folk Museum (Norsk Folkemuseum), or, <a href="https://norskfolkemuseum.no/en">The Norwegian Museum of Cultural History </a>,
+        shows how people lived in Norway from 1500 to the present through its collections of buildings, farm houses, churches, and artifacts,  from around the country.</p>
+    <p class="narrow">This is an "open-air" museum with 160 historic buildings. A main attraction is Gol Stave Church 
+    	from around 1200. The museum focuses on the time period from 1500 until present time, and in-door exhibits feature 
+    	Norwegian folk costumes, folk art, church art and Sami culture.  </p>
+   <p class="narrow">This was one of our favorite museums - perhaps because we had sunny warm weather? You can spend a whole day at this museum - or just a few hours as we did. </p>
+    
+    <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 12</div>
+        <img class="land" src="images/folk1.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 12</div>
+      <img class="port" src="images/folk2.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 12</div>
+      <img class="land" src="images/folk3.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 12</div>
+      <img class="land" src="images/folk4.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 12</div>
+      <img class="port" src="images/folk5.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 12</div>
+      <img class="land" src="images/folk6.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 12</div>
+        <img class="port" src="images/folk7.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 12</div>
+      <img class="port" src="images/folk8.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 12</div>
+      <img class="port" src="images/folk9.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 12</div>
+      <img class="port" src="images/folk10.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">11 / 12</div>
+      <img class="port" src="images/folk11.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">12 / 12</div>
+      <img class="land" src="images/folk12.jpg">
+  </div>
+
+
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/thumb1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Carrie standing in the beautiful gardens of the Norsk Folkemuseum">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb2.jpg" style="width:100%" onclick="currentSlide(2)" alt="The Norsk Folkemuseum recreates an authentic 
+      	little village from hundreds of years ago.  ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Music and dancing at the museum.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Carrie standing at the entrance to 
+           		a farm house.  Farms from 14 different regions are recreated at this museum. Good luck seeing all of them - we didn't!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Children can play different roles at the museum.">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Another farm house and barn, with childern in front. ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Some of the beautiful gardens and flowers at the outdoor museum.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb8.jpg" style="width:100%" onclick="currentSlide(8)" alt="This is a typical building, where the family lives
+      		on the top floor, and the animals live on the main floor.  Oh the smells and noise!">    
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb9.jpg" style="width:100%" onclick="currentSlide(9)" alt="The Gol Stave Church, originally built in the 1200s, and
+      		rebuilt on site. ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb10.jpg" style="width:100%" onclick="currentSlide(10)" alt="Intricate wood carvings with dragon heads. ">
+    </div> 
+    <div class="column">
+      <img class="demo cursor" src="images/thumb11.jpg" style="width:100%" onclick="currentSlide(11)" alt="The museum has a really good presentation of the Sami culture.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb12.jpg" style="width:100%" onclick="currentSlide(12)" alt="Fram museum statues of the
+      5 famous polar explorers (l to r): Olav Bjaaland, Oscar Wisting, Roald Amundsen, (wanna be: Joel Tollefson),Sverre Hassel, Helmer Hanssen . ">
+    </div>         
+  </div>
+</div>
+
+  </section> 
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>    
+    
+     
+
+<!-- add a common footer that is common to all pages; needs to go to the bottom -->
+  <div class="footer">
+    <details>
+      <summary>&copy; 2019 || Posted by: Joel Tollefson</summary>
+      <p>Posted by: Joel Tollefson</p>
+      <p>Contact information: <a href="mailto:Joel.Tollefson@gmail.com">
+          Joel.Tollefson@gmail.com</a>  </p>
+      <time datetime="2017-10-28">Revision date:2019-08-04</time> <!-- not sure how datetime works -->
+    </details>
+  </div>
+    
+    
+</body>
+  
+</html>

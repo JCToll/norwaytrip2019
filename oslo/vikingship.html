@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Viking Ship Museum</title>
+      <!-- bring in google fonts:  Lato, Muli, Fjord One, Asap -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Muli|Fjord+One|Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/meyer-reset.css"> 
+  <link rel="stylesheet" type="text/css" href="../styles/style2.css">
+      <!-- apply Font Awesome icons -->
+  <link rel="stylesheet" href="../styles/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+    
+
+    
+<body>
+     <!-- add horizontal navigation bar  to link to the main web pagess 
+                and, make current page "active" -->
+  
+    <header> 
+        <h1>3 Fantastic Days in Oslo! </h1>
+    </header>
+  <nav>
+    <ul class= "navbar">
+          <!-- add Font Awesome home icon to the Home menu box  -->
+      <li class="navbar"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  </li>
+      <li class="navbar"><a class= "active"  href="oslo.html">Oslo</a> </li>
+      <li class="navbar"><a href="../sognefjord/sognefjord.html">Sognefjord</a></li>
+      <li class="navbar"><a href="../bergen/bergen.html">Bergen</a></li>
+      <li class="navbar"><a href="../solstrand/solstrand.html">Solstrand</a></li>
+      <li class="navbar"><a href="../andoya/andoya.html">Andøya</a></li>
+      <li class="navbar"><a href="../lofoten/lofoten.html">Lofoten</a></li>      
+    </ul>
+
+  </nav>
+  
+  <!-- add an aside to support the main sections  -->
+  <aside class="leftbar">
+        <ul class= "leftbar">
+          <li class="leftbar"><a href="oslo.html">Oslo City</a>  </li>       	
+          <li class="leftbar"><a class= "active"  href="vikingship.html">Viking Ship</a>  </li>
+          <li class="leftbar"><a href="folkmuseum.html">Folk Museum</a>  </li>
+          <li class="leftbar"><a href="castle.html">Akershus Castle</a>  </li>
+          <li class="leftbar"><a href="vigeland.html">Vigeland Scupltures</a>  </li> 
+          <li class="leftbar"><a href="family.html">Oslo Relatives</a>  </li>  
+          <li class="leftbar"><a href="breakfast.html">Food!</a></li>           
+        </ul>
+
+  </aside>
+
+ <!-- start with main intro in the "sections" -->  
+  <section>
+  	<h2>Viking Ship Museum</h2>
+    <p class="narrow">This was one of our favorite museums in Oslo, and I highly recommend it.  
+    	Just take the small passenger boat from Aker Brygge waterfront to Bygdøy which has 5 museums. </p>
+    <p class="narrow">The Viking Ship Museum is located on the Bygdøy peninsula in Oslo, Norway. 
+    	It houses three of the world's best-preserved Viking era burial ships that were found as part of archaeological finds from Tune, Gokstad, Oseberg and the Borre mound cemetery.  </p>
+   <p class="narrow">This is a small but worthwhile museum that will only take a short time to visit.  </p>
+   
+    
+    <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 10</div>
+        <img class="port" src="images/viking1.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 10</div>
+      <img class="port" src="images/viking2.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 10</div>
+      <img class="port" src="images/viking3.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 10</div>
+      <img class="port" src="images/viking4.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 10</div>
+      <img class="port" src="images/viking5.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 10</div>
+      <img class="land" src="images/viking6.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 10</div>
+        <img class="port" src="images/viking7.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 10</div>
+      <img class="port" src="images/viking8.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 10</div>
+      <img class="port" src="images/viking9.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 10</div>
+      <img class="land" src="images/viking10.jpg">
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/thumb1.jpg" style="width:100%" onclick="currentSlide(1)" 
+      alt="View from the main entrance of the Oseberg Viking Ship.">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb2.jpg" style="width:100%" onclick="currentSlide(2)" 
+      alt="The bow and stern of the Oseberg ship are elaborately decorated with complex woodcarvings in the 'gripping beast' style">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb3.jpg" style="width:100%" onclick="currentSlide(3)" 
+      alt="View of the stern of the ship with the rudder.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb4.jpg" style="width:100%" onclick="currentSlide(4)" 
+      alt="Intricate wood carvings.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb5.jpg" style="width:100%" onclick="currentSlide(5)" 
+      alt="Dragon head from the ship's bow.">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb6.jpg" style="width:100%" onclick="currentSlide(6)" 
+      alt="The Oseberg ship is 21.58 metres (70.8 ft) long and 5.10 metres (16.7 ft) wide, with a mast of approximately 9–10 metres (30–33 ft) ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb7.jpg" style="width:100%" onclick="currentSlide(7)" 
+      alt="Standing infront of the Oseberg ship shows how big it really is.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb8.jpg" style="width:100%" onclick="currentSlide(8)" 
+      alt="This is a snow sled with incredible carvings.">    
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb9.jpg" style="width:100%" onclick="currentSlide(9)" 
+      alt="The Gokstad ship is the largest at 23.80 metres (78.1 ft) long and 5.10 m (16.7 ft) wide.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumb10.jpg" style="width:100%" onclick="currentSlide(10)" 
+      alt="Posing with the Gokstad ship.">
+    </div> 
+         
+  </div>
+</div>
+
+  </section> 
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>    
+    
+     
+
+<!-- add a common footer that is common to all pages; needs to go to the bottom -->
+  <div class="footer">
+    <details>
+      <summary>&copy; 2019 || Posted by: Joel Tollefson</summary>
+      <p>Posted by: Joel Tollefson</p>
+      <p>Contact information: <a href="mailto:Joel.Tollefson@gmail.com">
+          Joel.Tollefson@gmail.com</a>  </p>
+      <time datetime="2017-10-28">Revision date:2019-08-04</time> <!-- not sure how datetime works -->
+    </details>
+  </div>
+    
+    
+</body>
+  
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Visit with Relatives</title>
+      <!-- bring in google fonts:  Lato, Muli, Fjord One, Asap -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Muli|Fjord+One|Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/meyer-reset.css"> 
+  <link rel="stylesheet" type="text/css" href="../styles/style2.css">
+      <!-- apply Font Awesome icons -->
+  <link rel="stylesheet" href="../styles/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+    
+
+    
+<body>
+     <!-- add horizontal navigation bar  to link to the main web pagess 
+                and, make current page "active" -->
+  
+    <header> 
+        <h1>Our Adventures in Bergen</h1>
+    </header>
+  <nav>
+    <ul class= "navbar">
+          <!-- add Font Awesome home icon to the Home menu box  -->
+      <li class="navbar"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  </li>
+      <li class="navbar"><a href="../oslo/oslo.html">Oslo</a> </li>
+      <li class="navbar"><a href="../Sognefjord/sognefjord.html">Sognefjord</a></li>
+      <li class="navbar"><a class= "active"   href="../bergen/bergen.html">Bergen</a></li>
+      <li class="navbar"><a href="../solstrand/solstrand.html">Solstrand</a></li>
+      <li class="navbar"><a href="../andoya/andoya.html">Andøya</a></li>
+      <li class="navbar"><a href="../lofoten/lofoten.html">Lofoten</a></li>      
+    </ul>
+
+  </nav>
+  
+  <!-- add an aside to support the main sections  -->
+  <aside class="leftbar">
+        <ul class= "leftbar">
+          <li class="leftbar"><a  href="bergen.html">About Bergen</a>  </li>       	
+          <li class="leftbar"><a href="castle.html">Bergenhus Fortress & Rosenkrantz Tower</a>  </li>
+          <li class="leftbar"><a href="grieg.html">Grieg's Home at Troldhaugen</a>  </li>
+          <li class="leftbar"><a href="funicular.html">Fløibanen Funicular</a>  </li>          
+          <li class="leftbar"><a class= "active" href="relatives.html">Bergen Relatives</a>  </li>  
+          <li class="leftbar"><a href="stave.html">Stave Church</a>  </li>        
+        </ul>
+
+  </aside>
+
+ <!-- start with main intro in the "sections" -->  
+  <section>
+  	<h2>Visit With Our Bergen Relatives</h2>
+    <p class="narrow">Just as with our Oslo experience, our visit with our Bergen relatives was the highlight of our Bergen experience. 
+    	(<i>Note that I will refrain from using last names for privacy sake</i>.)
+    	My mother's cousin, Berit and her husband Erik live in the outskirts of Bergen, in a beautiful new condo.  We had previously met Berit's daughter
+    	Ingrid and her husband Helge in Oslo, and we also met her brother Gunnar in Oslo.  (See the Oslo Relatives page.)
+    	Berit and Erik had us over for a lovely dinner, and also invited their son Torgier, his wife Elizabeth, and their three children,
+    	Thea, and sons, ? and ?.   </p>.
+  	
+
+       
+    <!-- Container for the image gallery -->
+
+<div class="container">
+  <!-- Full-width images with number text -->
+  
+  <div class="mySlides">
+    <div class="numbertext">1 / 10</div>
+        <img class="port" src="images/relatives1.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 10</div>
+      <img src="images/relatives2.jpg" width="766px" height="512">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 10</div>
+      <img class="port" src="images/relatives3.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 10</div>
+      <img class="port" src="images/relatives4.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 10</div>
+      <img class="port" src="images/relatives5.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 10</div>
+      <img class="land" src="images/relatives6.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 10</div>
+        <img class="port" src="images/relatives7.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 10</div>
+      <img class="port" src="images/relatives8.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 10</div>
+      <img class="port" src="images/relatives9.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 10</div>
+      <img class="port" src="images/relatives10.jpg">
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>   
+  
+   <!-- Thumbnail images -->
+  <div class="row">
+         	
+    <div class="column">
+      <img class="demo cursor" src="images/thumb1.jpg" style="width:100%" onclick="currentSlide(1)" 
+      alt="Berit and Erik met us at the harbor upon our arrival, and were kind to take us to our apartment.   ">
+    </div>
+    
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb2.jpg" style="width:100%" onclick="currentSlide(2)" 
+      alt="Berit and Erik in their condo. Berit is an art collector and had beautiful paintings.   ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb3.jpg" style="width:100%" onclick="currentSlide(3)" 
+      alt="Dinner with ?, Thea, Erik, and Carrie.  ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb4.jpg" style="width:100%" onclick="currentSlide(4)" 
+      alt="Going clockwise, ?, ?, Berit, Elizabeth and Torgier.  ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb5.jpg" style="width:100%" onclick="currentSlide(5)" 
+      alt="Berit.    ">
+    </div>
+    
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb6.jpg" style="width:100%" onclick="currentSlide(6)" 
+      alt="Elizabeth and her children - they all play football (soccer) and they had just returned from practice.   ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb7.jpg" style="width:100%" onclick="currentSlide(7)" 
+      alt="Berit with her grandsons.   ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb8.jpg" style="width:100%" onclick="currentSlide(8)" 
+      alt="The boys.    ">    
+    </div>  
+      
+    <div class="column">
+      <img class="demo cursor" src="images/thumb9.jpg" style="width:100%" onclick="currentSlide(9)" 
+      alt="Erik showed old pictures of their time in the US.    ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb10.jpg" style="width:100%" onclick="currentSlide(10)" 
+      alt="Torgier and son, looking over photo albums.    ">
+    </div> 
+    
+   
+  </div>
+</div>
+
+  </section> 
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>    
+    
+     
+
+<!-- add a common footer that is common to all pages; needs to go to the bottom -->
+  <div class="footer">
+    <details>
+      <summary>&copy; 2019 || Posted by: Joel Tollefson</summary>
+      <p>Posted by: Joel Tollefson</p>
+      <p>Contact information: <a href="mailto:Joel.Tollefson@gmail.com">
+          Joel.Tollefson@gmail.com</a>  </p>
+      <time datetime="2017-10-28">Revision date:2019-08-04</time> <!-- not sure how datetime works -->
+    </details>
+  </div>
+    
+    
+</body>
+  
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vistas from Solstrand Hotel</title>
+      <!-- bring in google fonts:  Lato, Muli, Fjord One, Asap -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Muli|Fjord+One|Asap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/meyer-reset.css"> 
+  <link rel="stylesheet" type="text/css" href="../styles/style2.css">
+      <!-- apply Font Awesome icons -->
+  <link rel="stylesheet" href="../styles/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+    
+
+    
+<body>
+     <!-- add horizontal navigation bar  to link to the main web pagess 
+                and, make current page "active" -->
+  
+    <header> 
+        <h1>Rejuvenating at the Solstrand Resort & Spa </h1>
+    </header>
+  <nav>
+    <ul class= "navbar">
+          <!-- add Font Awesome home icon to the Home menu box  -->
+      <li class="navbar"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  </li>
+      <li class="navbar"><a href="../oslo/oslo.html">Oslo</a> </li>
+      <li class="navbar"><a href="../Sognefjord/sognefjord.html">Sognefjord</a></li>
+      <li class="navbar"><a href="../bergen/bergen.html">Bergen</a></li>
+      <li class="navbar"><a class= "active" href="../solstrand/solstrand.html">Solstrand</a></li>
+      <li class="navbar"><a href="../andoya/andoya.html">Andøya</a></li>
+      <li class="navbar"><a href="../lofoten/lofoten.html">Lofoten</a></li>      
+    </ul>
+
+  </nav>
+  
+  <!-- add an aside to support the main sections  -->
+  <aside class="leftbar">
+        <ul class= "leftbar">
+          <li class="leftbar"><a href="solstrand.html">Solstrand Hotel</a>  </li>       	
+          <li class="leftbar"><a class= "active"  href="vistas.html">Hotel Vistas</a>  </li>
+          <li class="leftbar"><a href="pool.html">Hotel Pool</a>  </li>
+          <li class="leftbar"><a href="dip.html">Polar Dip</a>  </li>          
+          <li class="leftbar"><a href="rowing.html">Oselvar Boating</a>  </li> 
+          <li class="leftbar"><a href="food.html">Gourmet Experience</a>  </li>        
+        </ul>
+
+  </aside>
+
+ <!-- start with main intro in the "sections" -->  
+  <section>
+  	<h2>Vistas from the Solstrand Hotel</h2>
+    <p class="narrow">We took so many pictures, I had to add a second page.  These pictures
+    	show the vistas from the hotel.  </p>
+    	
+       
+    <!-- Container for the image gallery -->
+
+<div class="container">
+  <!-- Full-width images with number text -->
+  
+  <div class="mySlides">
+    <div class="numbertext">1 / 13</div>
+        <img class="land" src="images/vistas1.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 13</div>
+      <img class="port" src="images/vistas2.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 13</div>
+      <img class="land" src="images/vistas3.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 13</div>
+      <img class="land" src="images/vistas4.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 13</div>
+      <img class="land" src="images/vistas5.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 13</div>
+      <img class="port" src="images/vistas6.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 13</div>
+        <img class="port" src="images/vistas7.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 13</div>
+      <img class="port" src="images/vistas8.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 13</div>
+      <img class="port" src="images/vistas9.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 13</div>
+      <img class="land" src="images/vistas10.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">11 / 13</div>
+      <img class="port" src="images/vistas11.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">12 / 13</div>
+      <img class="land" src="images/vistas12.jpg">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">13 / 13</div>
+      <img class="port" src="images/vistas13.jpg">
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+   <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>   
+  
+   <!-- Thumbnail images -->
+  <div class="row">
+         	
+    <div class="column">
+      <img class="demo cursor" src="images/thumb1.jpg" style="width:100%" onclick="currentSlide(1)" 
+      alt="Boat house on the fjord.   ">
+    </div>
+    
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb2.jpg" style="width:100%" onclick="currentSlide(2)" 
+      alt="Harbor view.   ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb3.jpg" style="width:100%" onclick="currentSlide(3)" 
+      alt="Path along the shoreline, looking across the fjord.  ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb4.jpg" style="width:100%" onclick="currentSlide(3)" 
+      alt="Garden view.  ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb5.jpg" style="width:100%" onclick="currentSlide(5)" 
+      alt="Here's a path that winds around the rocks on the shoreline.    ">
+    </div>
+    
+    <div class="column"> 
+      <img class="demo cursor" src="images/thumb6.jpg" style="width:100%" onclick="currentSlide(6)" 
+      alt="More shoreline views.    ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb7.jpg" style="width:100%" onclick="currentSlide(7)" 
+      alt="Ready for the fire.   ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb8.jpg" style="width:100%" onclick="currentSlide(8)" 
+      alt="Flag pole.    ">    
+    </div>  
+      
+    <div class="column">
+      <img class="demo cursor" src="images/thumb9.jpg" style="width:100%" onclick="currentSlide(9)" 
+      alt="The classic sign post.    ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb10.jpg" style="width:100%" onclick="currentSlide(10)" 
+      alt="Fjord view from the hotel shoreline.    ">
+    </div> 
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb11.jpg" style="width:100%" onclick="currentSlide(11)" 
+      alt="Serene fjord water.    ">
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb12.jpg" style="width:100%" onclick="currentSlide(12)" 
+      alt="so peaceful...  ">
+    </div> 
+    
+    <div class="column">
+      <img class="demo cursor" src="images/thumb13.jpg" style="width:100%" onclick="currentSlide(13)" 
+      alt="Carrie overlooking the boat houses and harbor.  ">
+    </div>
+            
+  </div>
+</div>
+
+  </section> 
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>    
+    
+     
+
+<!-- add a common footer that is common to all pages; needs to go to the bottom -->
+  <div class="footer">
+    <details>
+      <summary>&copy; 2019 || Posted by: Joel Tollefson</summary>
+      <p>Posted by: Joel Tollefson</p>
+      <p>Contact information: <a href="mailto:Joel.Tollefson@gmail.com">
+          Joel.Tollefson@gmail.com</a>  </p>
+      <time datetime="2017-10-28">Revision date:2019-08-04</time> <!-- not sure how datetime works -->
+    </details>
+  </div>
+    
+    
+</body>
+  
+</html>
