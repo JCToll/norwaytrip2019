@@ -7,7 +7,7 @@ body {
 header h1 { 
     /* color: rebeccapurple; */
     color: #663399;  /* this is the same as rebeccapurple - for some reason the CSS code verification didn't like rebecaapurple */ 
-    /*font-size: 1.2rem;   */
+    font-size: 1.2rem; 
     padding: 0.8rem;  /* add space around h1 - otherwise it gets crowded */
     font-family: "Fjord One", Helvetica, FreeSans, sans-serif ;  /* use google font "Fjord One" = sort of Norwegian */
     width: 100% ;  /* note setting entire page width to max of 85% */
